@@ -1,7 +1,9 @@
-console.log('Hi, there!');
+console.log('Starting index.js');
 
-console.log('Hello, world!');
+function cb() {
+    console.log('Callback called');
+}
 
-console.log('Raghu Kiran');
+setTimeout(cb, 1000);
 
-console.log('Raghu Kiran2');
+console.log('Ending index.js');
