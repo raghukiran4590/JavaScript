@@ -11,3 +11,5 @@ console.log(output2);
 const output3 = output2.reduce((acc, curr) => acc + curr, 0);
 
 console.log(output3);
+
+output.map((x) => x * 2).filter((x) => x > 5).reduce((acc, curr) => acc + curr, 0);
