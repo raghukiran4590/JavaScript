@@ -1,0 +1,11 @@
+//debouncing is calling the events at a specific wait duration
+//For Ex: in ecommerce website like flipkart.amazon in the search bar the moment we stop typing a word for say 300ms then an api call will be triggered that gives us the search results
+// This is called debouncing
+// This can be implemented by our own custom function or use loadash cdn library
+
+
+
+
+
+//Throttling
+//In twitter, as soon as we scroll and stop at some point, throttling effect gets more posts and it keeps going to give us the infinite scroll effect
