@@ -1,0 +1,27 @@
+{
+  "name": "javascript",
+  "version": "1.0.0",
+  "description": "javascript package",
+  "homepage": "https://github.com/raghukiran4590/JavaScript#readme",
+  "bugs": {
+    "url": "https://github.com/raghukiran4590/JavaScript/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raghukiran4590/JavaScript.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "./DocumentDB/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "mongodb": "^6.16.0",
+    "oracledb": "^6.8.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.2"
+  }
+}

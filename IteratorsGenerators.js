@@ -9,4 +9,4 @@ function* count() {
 
 const even = count();
 
-console 
+console.log(even.next()); // { value: 2, done: false }
